@@ -3,7 +3,7 @@ const cors = require('cors');
 const routerApi = require('./routes');
 
 const app = express();
-const port = 3000;
+const port = 3000;         //este es el puesto 3000 donde corre mi app
 
 app.use(express.json());      //implementacion middleware
 app.use(cors());              //usamos libreria que descargamos de CORS (middleware)
